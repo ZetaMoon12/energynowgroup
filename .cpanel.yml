@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    # 1. Definir la ruta exacta hacia donde se copiarán los archivos.
+    # SI SUBES TODO EL WORDPRESS: /home/enuh2atmk16f/public_html/
+    # SI SUBES SOLO UN TEMA: /home/enuh2atmk16f/public_html/wp-content/themes/tu-tema/
+    - export DEPLOYPATH=/home/enuh2atmk16f/public_html/
+    
+    # 2. Comando para copiar todo el contenido del repositorio a la ruta final
+    - /bin/cp -R * $DEPLOYPATH
