@@ -6,7 +6,8 @@ Version: 1.0
 Author: Energy Now
 */
 
-function eng_get_seo_data() {
+function eng_get_seo_data()
+{
     return array(
         '/' => array(
             'index' => 'index, follow',
@@ -71,7 +72,7 @@ function eng_get_seo_data() {
         '/energia-solar-flotante/' => array(
             'index' => 'noindex, nofollow',
             'title' => 'Energía Solar Fotovoltaica Colombia | Energy Now Group',
-            'description' => 'Aprovecha cuerpos de agua con energía solar fotovoltaica Colombia y maximiza la generación renovable. ¡Entra ahora par aconocer más!',
+            'description' => 'Aprovecha cuerpos de agua con energía solar fotovoltaica Colombia y maximiza la generación renovable. ¡Entra ahora para conocer más!',
             'h1' => 'Energía Solar Fotovoltaica Colombia en Sistemas Flotantes'
         ),
         '/soluciones-fuera-de-la-red/' => array(
@@ -95,7 +96,8 @@ function eng_get_seo_data() {
     );
 }
 
-function eng_get_current_path() {
+function eng_get_current_path()
+{
     $path = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '';
     $path = strtok($path, '?');
     if ($path !== '/' && substr($path, -1) !== '/') {
@@ -105,32 +107,32 @@ function eng_get_current_path() {
 }
 
 // Override Title
-add_filter('pre_get_document_title', function($title) {
+add_filter('pre_get_document_title', function ($title) {
     $data = eng_get_seo_data();
     $path = eng_get_current_path();
-    
+
     if (isset($data[$path]['title'])) {
         return $data[$path]['title'];
     }
     if (function_exists('is_front_page') && is_front_page() && isset($data['/']['title'])) {
         return $data['/']['title'];
     }
-    
+
     return $title;
 }, 999);
 
 // Add Meta Description and Robots
-add_action('wp_head', function() {
+add_action('wp_head', function () {
     $data = eng_get_seo_data();
     $path = eng_get_current_path();
-    
+
     $seo_info = null;
     if (isset($data[$path])) {
         $seo_info = $data[$path];
     } elseif (function_exists('is_front_page') && is_front_page() && isset($data['/'])) {
         $seo_info = $data['/'];
     }
-    
+
     if ($seo_info) {
         if (!empty($seo_info['description'])) {
             echo '<meta name="description" content="' . esc_attr($seo_info['description']) . '">' . "\n";
@@ -143,17 +145,17 @@ add_action('wp_head', function() {
 }, 1);
 
 // Update H1 via JS in footer as a fallback
-add_action('wp_footer', function() {
+add_action('wp_footer', function () {
     $data = eng_get_seo_data();
     $path = eng_get_current_path();
-    
+
     $seo_info = null;
     if (isset($data[$path])) {
         $seo_info = $data[$path];
     } elseif (function_exists('is_front_page') && is_front_page() && isset($data['/'])) {
         $seo_info = $data['/'];
     }
-    
+
     if ($seo_info && !empty($seo_info['h1'])) {
         $h1 = esc_js($seo_info['h1']);
         echo "<script>
@@ -168,26 +170,26 @@ add_action('wp_footer', function() {
 }, 999);
 
 // Update H1 server-side using the_title hook
-add_filter('the_title', function($title, $id = null) {
+add_filter('the_title', function ($title, $id = null) {
     if (is_admin() || !in_the_loop() || !is_main_query()) {
         return $title;
     }
-    
+
     $data = eng_get_seo_data();
     $path = eng_get_current_path();
-    
+
     $seo_info = null;
     if (isset($data[$path])) {
         $seo_info = $data[$path];
     } elseif (function_exists('is_front_page') && is_front_page() && isset($data['/'])) {
         $seo_info = $data['/'];
     }
-    
+
     if ($seo_info && !empty($seo_info['h1'])) {
         if (get_the_ID() == $id) {
             return $seo_info['h1'];
         }
     }
-    
+
     return $title;
 }, 10, 2);
