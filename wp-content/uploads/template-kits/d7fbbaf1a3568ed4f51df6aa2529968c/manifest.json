@@ -1,0 +1,1301 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Oeelco - Template Kit for Oil & Gas Industry",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/web.moxcreative.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Service Detail",
+            "screenshot": "screenshots\/service-detail.jpg",
+            "source": "templates\/service-detail.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/service-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About Us",
+            "screenshot": "screenshots\/about-us.jpg",
+            "source": "templates\/about-us.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/about-us\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Projects",
+            "screenshot": "screenshots\/projects.jpg",
+            "source": "templates\/projects.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/projects\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Careers",
+            "screenshot": "screenshots\/careers.jpg",
+            "source": "templates\/careers.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/careers\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Homepage",
+            "screenshot": "screenshots\/homepage.jpg",
+            "source": "templates\/homepage.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/template-kit\/homepage\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1"
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Oeelco - 404 Page",
+            "screenshot": "screenshots\/oeelco-404-page.jpg",
+            "source": "templates\/oeelco-404-page.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/?elementor_library=oeelco-404-page",
+            "type": "error-404",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "error-404",
+                "elementor_pro_conditions": [
+                    "include\/singular\/not_found404"
+                ],
+                "additional_template_information": [
+                    "This is a \"Error 404\" template for Elementor Pro.",
+                    "This template will display on: 404 Page."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Oeelco - Single Blog",
+            "screenshot": "screenshots\/oeelco-single-blog.jpg",
+            "source": "templates\/oeelco-single-blog.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/?elementor_library=oeelco-single-blog",
+            "type": "single-post",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "single-post",
+                "elementor_pro_conditions": [
+                    "include\/singular\/post"
+                ],
+                "additional_template_information": [
+                    "This is a \"Single Post\" template for Elementor Pro.",
+                    "This template will display on: Posts."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Oeelco - Blog",
+            "screenshot": "screenshots\/oeelco-blog.jpg",
+            "source": "templates\/oeelco-blog.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/?elementor_library=oeelco-blog",
+            "type": "archive",
+            "category": "page",
+            "metadata": {
+                "template_type": "archive-blog",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "archive",
+                "elementor_pro_conditions": [
+                    "include\/archive"
+                ],
+                "additional_template_information": [
+                    "This is a \"Archive\" template for Elementor Pro.",
+                    "This template will display on: All Archives."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Oeelco - Footer",
+            "screenshot": "screenshots\/oeelco-footer.jpg",
+            "source": "templates\/oeelco-footer.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/?elementor_library=oeelco-footer",
+            "type": "footer",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "footer",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Footer\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Oeelco - Header",
+            "screenshot": "screenshots\/oeelco-header.jpg",
+            "source": "templates\/oeelco-header.json",
+            "preview_url": "https:\/\/web.moxcreative.com\/oeelco\/?elementor_library=oeelco-header",
+            "type": "header",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": "1",
+                "elementor_library_type": "header",
+                "elementor_pro_conditions": [
+                    "include\/general"
+                ],
+                "additional_template_information": [
+                    "This is a \"Header\" template for Elementor Pro.",
+                    "This template will display on: Entire Site."
+                ]
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "ElementsKit Lite",
+            "version": "2.8.1",
+            "file": "elementskit-lite\/elementskit-lite.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Envato Elements",
+            "version": "2.0.11",
+            "file": "envato-elements\/envato-elements.php",
+            "author": "Envato"
+        },
+        {
+            "name": "Skyboot Custom Icons for Elementor - Elementor Icons library",
+            "version": "1.0.5",
+            "file": "skyboot-custom-icons-for-elementor\/skyboot-custom-icons-for-elementor.php",
+            "author": "Skybootstrap"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "3.10.2",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "petrochemical-complex.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/petrochemical-complex-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 85655,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-UQE85KY"
+        },
+        {
+            "filename": "oil-gas-operations-iraq-1-e1674900130435.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/oil-gas-operations-iraq-1-e1674900130435-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 197410,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-ZCQTQZ2"
+        },
+        {
+            "filename": "industry-scene.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/industry-scene-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 132859,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-C6NCKG5"
+        },
+        {
+            "filename": "pipelines-and-refinery-at-night.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/pipelines-and-refinery-at-night-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-detail.json",
+                    "name": "Service Detail"
+                }
+            ],
+            "filesize": 144175,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4JVFHX8"
+        },
+        {
+            "filename": "offshore-drilling-rig-on-the-sea-oil-platform.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/offshore-drilling-rig-on-the-sea-oil-platform-800x337.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/oeelco-blog.json",
+                    "name": "Oeelco - Blog"
+                }
+            ],
+            "filesize": 67793,
+            "dimensions": [
+                1280,
+                539
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-MS496LJ"
+        },
+        {
+            "filename": "aerial-view-of-oil-refinery-industrial-site-in-a-modern-city-e1674900154491.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/aerial-view-of-oil-refinery-industrial-site-in-a-modern-city-e1674900154491-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 190220,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-K9GG3TR"
+        },
+        {
+            "filename": "oil-and-gas-refinery-plant-form-industry-zone-aerial-view-oil-and-gas-industrial-e1674900174945.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/oil-and-gas-refinery-plant-form-industry-zone-aerial-view-oil-and-gas-industrial-e1674900174945-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                },
+                {
+                    "source": "templates\/oeelco-footer.json",
+                    "name": "Oeelco - Footer"
+                }
+            ],
+            "filesize": 142976,
+            "dimensions": [
+                1080,
+                608
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-LT3DDXJ"
+        },
+        {
+            "filename": "Staff-2.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Staff-2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 88448,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/bearded-man-posing-isolated-over-white-wall-backgr-CEZVA2K"
+        },
+        {
+            "filename": "Staff-7.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Staff-7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 67948,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/beautiful-smiling-african-american-female-with-cri-NB8DUN6"
+        },
+        {
+            "filename": "Staff-4.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Staff-4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/oeelco-single-blog.json",
+                    "name": "Oeelco - Single Blog"
+                }
+            ],
+            "filesize": 97351,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/waist-up-portrait-of-calm-and-successful-young-bus-W5FWBWU"
+        },
+        {
+            "filename": "chemical-plant.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/chemical-plant-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                }
+            ],
+            "filesize": 202122,
+            "dimensions": [
+                1280,
+                854
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-P6D3WKU"
+        },
+        {
+            "filename": "diagonal-lines-2.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/diagonal-lines-2.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 151,
+            "dimensions": [
+                6,
+                6
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/heropatterns.com\/"
+        },
+        {
+            "filename": "oil-refinery-factory-at-the-cloudy-sky-petrochemical-plant-petroleum-e1674900200774.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/oil-refinery-factory-at-the-cloudy-sky-petrochemical-plant-petroleum-e1674900200774-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 177117,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-MW6GXHZ"
+        },
+        {
+            "filename": "Client-1.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Client-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 4399,
+            "dimensions": [
+                300,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Client-2.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Client-2.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 4964,
+            "dimensions": [
+                300,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Client-3.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Client-3.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 3744,
+            "dimensions": [
+                300,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Client-4.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Client-4.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 4298,
+            "dimensions": [
+                300,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "Client-5.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Client-5.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 3303,
+            "dimensions": [
+                300,
+                100
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/logoipsum.com\/"
+        },
+        {
+            "filename": "city-modern-view-e1674900224633.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/city-modern-view-e1674900224633-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 147581,
+            "dimensions": [
+                1080,
+                810
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-T9XAFVJ"
+        },
+        {
+            "filename": "topography-1.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/topography-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 126262,
+            "dimensions": [
+                600,
+                600
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/heropatterns.com\/"
+        },
+        {
+            "filename": "offshore-oil-rig-in-sea-against-sky-e1674900247917.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/offshore-oil-rig-in-sea-against-sky-e1674900247917-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about-us.json",
+                    "name": "About Us"
+                },
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 144639,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-AQ24VRF"
+        },
+        {
+            "filename": "refinery-panorama-at-night.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/refinery-panorama-at-night-800x283.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 82079,
+            "dimensions": [
+                1280,
+                453
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-PTGF7QG"
+        },
+        {
+            "filename": "silhouette-of-a-worker-and-an-oil-pump-jack-on-the-sunset-agains-beautiful-sky.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/silhouette-of-a-worker-and-an-oil-pump-jack-on-the-sunset-agains-beautiful-sky-800x518.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 119706,
+            "dimensions": [
+                1280,
+                829
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-HJVN62U"
+        },
+        {
+            "filename": "gas-industry.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/gas-industry-800x523.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 160833,
+            "dimensions": [
+                1280,
+                837
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-YW3P63L"
+        },
+        {
+            "filename": "oil-and-gas-refinery-plant-form-industry-zone-aerial-view-oil-and-gas-industrial-1.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/oil-and-gas-refinery-plant-form-industry-zone-aerial-view-oil-and-gas-industrial-1-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                }
+            ],
+            "filesize": 168959,
+            "dimensions": [
+                1280,
+                719
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-AUD9DMU"
+        },
+        {
+            "filename": "World-map-a.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/World-map-a-800x454.png",
+            "templates": [
+                {
+                    "source": "templates\/projects.json",
+                    "name": "Projects"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 205307,
+            "dimensions": [
+                1903,
+                1080
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/business-dotted-world-map-C3EU3G7"
+        },
+        {
+            "filename": "workers-walking-at-oil-refinery-e1674731285217.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/workers-walking-at-oil-refinery-e1674731285217-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 184125,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-5CXVPL2"
+        },
+        {
+            "filename": "Team_1.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Team_1.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 53599,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/confident-businessman-at-construction-site-CZCAGAK"
+        },
+        {
+            "filename": "Team_3.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Team_3.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 64991,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/happy-construction-industry-professional-isolated-MJAD8SY"
+        },
+        {
+            "filename": "Team_7.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Team_7.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 78538,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/female-worker-with-angle-grinder-in-a-warehouse-P4KJFC2"
+        },
+        {
+            "filename": "Team_8.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Team_8.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 79551,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/manual-worker-in-the-plant-HJ8CQAH"
+        },
+        {
+            "filename": "Team_2.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Team_2.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 72057,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/smiling-african-american-construction-worker-with--W2FDLF7"
+        },
+        {
+            "filename": "Team_4.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Team_4.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 59710,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/pretty-young-cross-armed-female-engineer-in-blue-w-VJE33N2"
+        },
+        {
+            "filename": "Team_5.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Team_5.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 58443,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/foreman-or-worker-work-at-factory-site-check-up-ma-4REN58R"
+        },
+        {
+            "filename": "Team_6.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Team_6.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 84020,
+            "dimensions": [
+                700,
+                700
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/cheerful-worker-in-helmet-and-safety-vest-with-cro-TC6WEFD"
+        },
+        {
+            "filename": "oil-gas-operations-iraq.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/oil-gas-operations-iraq-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 180749,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RAEPP6C"
+        },
+        {
+            "filename": "group-of-young-multiracial-industry-workers-stacking-hands-together.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/group-of-young-multiracial-industry-workers-stacking-hands-together-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 176312,
+            "dimensions": [
+                1280,
+                853
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AHML7AW"
+        },
+        {
+            "filename": "professional-industrial-engineers-in-hard-hats-working-at-heavy-industry-manufacturing-factory.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/professional-industrial-engineers-in-hard-hats-working-at-heavy-industry-manufacturing-factory-800x300.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 103997,
+            "dimensions": [
+                1280,
+                480
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-H3RHNTP"
+        },
+        {
+            "filename": "engineering-manager-and-mechanic-worker-doing-routine-check-up-in-industrial-factory-e1674669183542.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/engineering-manager-and-mechanic-worker-doing-routine-check-up-in-industrial-factory-e1674669183542-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 173340,
+            "dimensions": [
+                1280,
+                852
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-84B6VV5"
+        },
+        {
+            "filename": "interstate-trucking-industry-highway-running-through-city-1-e1674900278112.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/interstate-trucking-industry-highway-running-through-city-1-e1674900278112-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 156544,
+            "dimensions": [
+                1080,
+                721
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-XH4U3FS"
+        },
+        {
+            "filename": "pipelines-of-a-oil-and-gas-refinery-industrial-plant-e1674900302636.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/pipelines-of-a-oil-and-gas-refinery-industrial-plant-e1674900302636-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                }
+            ],
+            "filesize": 153587,
+            "dimensions": [
+                1080,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-Q2MBXMK"
+        },
+        {
+            "filename": "toronto-city-skyline-at-night-ontario-canada-2.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/toronto-city-skyline-at-night-ontario-canada-2-800x485.jpg",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 123132,
+            "dimensions": [
+                1280,
+                776
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HZQMHRW"
+        },
+        {
+            "filename": "oil-and-gas-petrochemical-industrial-oil-refinery-petrochemical-plant-factory-from-osaka-chemical-i.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/oil-and-gas-petrochemical-industrial-oil-refinery-petrochemical-plant-factory-from-osaka-chemical-i-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 205062,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-H4FJ7QS"
+        },
+        {
+            "filename": "oil-rig-at-port-e1674741523466.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/oil-rig-at-port-e1674741523466-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 214848,
+            "dimensions": [
+                1280,
+                852
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-5HUUH2Y"
+        },
+        {
+            "filename": "petrochemical-oil-refinery-in-bangkok-city-thailand-oil-and-gas-tanks-in-industry-factory--e1674900355418.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/petrochemical-oil-refinery-in-bangkok-city-thailand-oil-and-gas-tanks-in-industry-factory--e1674900355418-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/homepage.json",
+                    "name": "Homepage"
+                }
+            ],
+            "filesize": 196010,
+            "dimensions": [
+                1080,
+                719
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4M9FWS3"
+        },
+        {
+            "filename": "chemical-oil-refinery-plant-power-plant-and-metal-pipe-concept-industry.jpg",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/chemical-oil-refinery-plant-power-plant-and-metal-pipe-concept-industry-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/oeelco-404-page.json",
+                    "name": "Oeelco - 404 Page"
+                }
+            ],
+            "filesize": 114613,
+            "dimensions": [
+                1280,
+                719
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-X8CDA8E"
+        },
+        {
+            "filename": "Logo_Oeelco_2.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Logo_Oeelco_2.png",
+            "templates": [
+                {
+                    "source": "templates\/oeelco-footer.json",
+                    "name": "Oeelco - Footer"
+                },
+                {
+                    "source": "templates\/oeelco-header.json",
+                    "name": "Oeelco - Header"
+                }
+            ],
+            "filesize": 18190,
+            "dimensions": [
+                542,
+                138
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/abstract-water-colorful-gradient-logo_33782831.htm#page=2&query=logo%20industrial%20oil&position=27&from_view=search&track=ais"
+        },
+        {
+            "filename": "Logo_Oeelco_1.png",
+            "thumbnail_url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/Logo_Oeelco_1.png",
+            "templates": [
+                {
+                    "source": "templates\/oeelco-header.json",
+                    "name": "Oeelco - Header"
+                }
+            ],
+            "filesize": 18155,
+            "dimensions": [
+                542,
+                138
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/abstract-water-colorful-gradient-logo_33782831.htm#page=2&query=logo%20industrial%20oil&position=27&from_view=search&track=ais"
+        }
+    ]
+}

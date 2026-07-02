@@ -1,0 +1,349 @@
+{
+    "version": "0.4",
+    "title": "Oeelco &#8211; Blog",
+    "type": "archive",
+    "metadata": {
+        "template_type": "archive-blog",
+        "include_in_zip": "1",
+        "elementor_pro_required": "1",
+        "elementor_library_type": "archive",
+        "elementor_pro_conditions": [
+            "include\/archive"
+        ],
+        "additional_template_information": [
+            "This is a \"Archive\" template for Elementor Pro.",
+            "This template will display on: All Archives."
+        ],
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "73cb2ffe",
+            "settings": {
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/web.moxcreative.com\/oeelco\/wp-content\/uploads\/sites\/6\/2023\/01\/offshore-drilling-rig-on-the-sea-oil-platform.jpg",
+                    "id": 65,
+                    "alt": "Offshore drilling rig on the sea. Oil platform",
+                    "source": "library"
+                },
+                "background_position": "initial",
+                "background_position_tablet": "initial",
+                "background_xpos_tablet": {
+                    "unit": "%",
+                    "size": 80,
+                    "sizes": []
+                },
+                "background_xpos_mobile": {
+                    "unit": "%",
+                    "size": 80,
+                    "sizes": []
+                },
+                "background_ypos_tablet": {
+                    "unit": "%",
+                    "size": 50,
+                    "sizes": []
+                },
+                "background_ypos_mobile": {
+                    "unit": "%",
+                    "size": 50,
+                    "sizes": []
+                },
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "gradient",
+                "background_overlay_color_b": "#01010178",
+                "background_overlay_color_b_stop": {
+                    "unit": "%",
+                    "size": 20,
+                    "sizes": []
+                },
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.90000000000000002220446049250313080847263336181640625,
+                    "sizes": []
+                },
+                "padding": {
+                    "unit": "em",
+                    "top": "14",
+                    "right": "1",
+                    "bottom": "8",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "11",
+                    "right": "2",
+                    "bottom": "6",
+                    "left": "2",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "10",
+                    "right": "1",
+                    "bottom": "4",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "__globals__": {
+                    "background_overlay_color": "globals\/colors?id=secondary"
+                },
+                "background_position_mobile": "initial",
+                "background_xpos": {
+                    "unit": "%",
+                    "size": 50,
+                    "sizes": []
+                },
+                "background_ypos": {
+                    "unit": "%",
+                    "size": 30,
+                    "sizes": []
+                },
+                "overflow": "hidden"
+            },
+            "elements": [
+                {
+                    "id": "379f9533",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "149e2104",
+                            "settings": {
+                                "title": "News & Article",
+                                "__globals__": {
+                                    "typography_typography": "globals\/typography?id=583e54c",
+                                    "title_color": "globals\/colors?id=a291686"
+                                },
+                                "_element_width": "auto",
+                                "_animation": "fadeInLeft"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "fcf5987",
+                            "settings": {
+                                "padding": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "50",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_tablet": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "30",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "padding_mobile": {
+                                    "unit": "%",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "gap": "no",
+                                "margin": {
+                                    "unit": "px",
+                                    "top": "20",
+                                    "right": 0,
+                                    "bottom": "0",
+                                    "left": 0,
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [
+                                {
+                                    "id": "6d802c15",
+                                    "settings": {
+                                        "_column_size": 100,
+                                        "_inline_size": null,
+                                        "border_border": "solid",
+                                        "border_width": {
+                                            "unit": "px",
+                                            "top": "0",
+                                            "right": "0",
+                                            "bottom": "0",
+                                            "left": "3",
+                                            "isLinked": false
+                                        },
+                                        "animation": "fadeInDown",
+                                        "__globals__": {
+                                            "border_color": "globals\/colors?id=a291686"
+                                        }
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "7cb97c4c",
+                                            "settings": {
+                                                "editor": "<p>From the most remote corners of the Earth comes the fuel that makes modern life possible.<\/p>",
+                                                "text_color": "#FFFFFF",
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "-15",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "15",
+                                                    "isLinked": false
+                                                },
+                                                "_animation": "fadeIn",
+                                                "_animation_delay": 1080,
+                                                "__globals__": {
+                                                    "typography_typography": "globals\/typography?id=accent",
+                                                    "text_color": "globals\/colors?id=a291686",
+                                                    "_border_color": ""
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        },
+        {
+            "id": "25f6005f",
+            "settings": {
+                "padding": {
+                    "unit": "em",
+                    "top": "6",
+                    "right": "1",
+                    "bottom": "7",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "em",
+                    "top": "3",
+                    "right": "1",
+                    "bottom": "4",
+                    "left": "1",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "em",
+                    "top": "2",
+                    "right": "1",
+                    "bottom": "2",
+                    "left": "1",
+                    "isLinked": false
+                }
+            },
+            "elements": [
+                {
+                    "id": "24643b6",
+                    "settings": {
+                        "_column_size": 100,
+                        "_inline_size": null
+                    },
+                    "elements": [
+                        {
+                            "id": "4747a4e1",
+                            "settings": {
+                                "archive_classic_thumbnail_size_size": "full",
+                                "archive_classic_meta_separator": "\/",
+                                "archive_classic_read_more_text": "Read More \u00bb",
+                                "archive_cards_meta_separator": "\u2022",
+                                "archive_cards_read_more_text": "Read More \u00bb",
+                                "archive_full_content_meta_separator": "\/\/\/",
+                                "archive_classic_title_spacing": {
+                                    "unit": "px",
+                                    "size": 7,
+                                    "sizes": []
+                                },
+                                "pagination_page_limit": "5",
+                                "pagination_prev_label": "&laquo; Previous",
+                                "pagination_next_label": "Next &raquo;",
+                                "text": "Load More",
+                                "load_more_no_posts_custom_message": "No more posts to show",
+                                "nothing_found_message": "It seems we can&#039;t find what you&#039;re looking for.",
+                                "__globals__": {
+                                    "archive_classic_title_color": "globals\/colors?id=secondary",
+                                    "archive_classic_title_typography_typography": "globals\/typography?id=7044a64",
+                                    "archive_classic_meta_typography_typography": "globals\/typography?id=69c152f",
+                                    "archive_classic_meta_color": "globals\/colors?id=text",
+                                    "archive_classic_excerpt_typography_typography": "globals\/typography?id=b2ce6af",
+                                    "archive_classic_excerpt_color": "globals\/colors?id=text",
+                                    "archive_classic_read_more_typography_typography": "globals\/typography?id=b2ce6af",
+                                    "archive_classic_read_more_color": "globals\/colors?id=primary"
+                                },
+                                "archive_classic_column_gap": {
+                                    "unit": "px",
+                                    "size": 25,
+                                    "sizes": []
+                                },
+                                "archive_classic_column_gap_tablet": {
+                                    "unit": "px",
+                                    "size": 25,
+                                    "sizes": []
+                                },
+                                "archive_classic_row_gap": {
+                                    "unit": "px",
+                                    "size": 30,
+                                    "sizes": []
+                                },
+                                "archive_classic_row_gap_tablet": {
+                                    "unit": "px",
+                                    "size": 25,
+                                    "sizes": []
+                                },
+                                "archive_classic_image_spacing_mobile": {
+                                    "unit": "px",
+                                    "size": 15,
+                                    "sizes": []
+                                },
+                                "archive_classic_excerpt_spacing": {
+                                    "unit": "px",
+                                    "size": 20,
+                                    "sizes": []
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "archive-posts",
+                            "elType": "widget"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

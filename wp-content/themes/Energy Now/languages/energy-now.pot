@@ -1,0 +1,25 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Energy Now\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-05-11 17:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.8.4; wp-6.9.4; php-8.2.30\n"
+"X-Domain: energy-now"
+
+#. Name of the theme
+msgid "Energy Now"
+msgstr ""
+
+#. Author of the theme
+msgid "INGENEWS TEAM"
+msgstr ""

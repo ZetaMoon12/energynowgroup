@@ -1,0 +1,8 @@
+[06-Jan-2026 01:04:30 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Image_Control" not found in /home/enuh2atmk16f/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17
+[14-Apr-2026 15:46:48 UTC] PHP Fatal error:  Uncaught Error: Class "WP_Customize_Image_Control" not found in /home/enuh2atmk16f/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-includes/customize/class-wp-customize-cropped-image-control.php on line 17

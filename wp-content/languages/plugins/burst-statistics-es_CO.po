@@ -1,0 +1,1030 @@
+# Translation of Plugins - Burst Statistics &#8211; Privacy-Friendly Analytics for WordPress - Stable (latest release) in Spanish (Colombia)
+# This file is distributed under the same license as the Plugins - Burst Statistics &#8211; Privacy-Friendly Analytics for WordPress - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2024-08-13 06:04:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: es_CO\n"
+"Project-Id-Version: Plugins - Burst Statistics &#8211; Privacy-Friendly Analytics for WordPress - Stable (latest release)\n"
+
+#: statistics/class-summary.php:40
+msgid "Because your cron has not been triggered more than 24 hours, Burst has stopped using the summary tables, which allow the dashboard to load faster."
+msgstr "Debido a que tu cron no se ha activado en más de 24 horas, Burst ha dejado de usar las tablas de resumen, que permiten que el panel de control cargue más rápido."
+
+#: settings/config/config.php:463
+msgid "Track execution of a WordPress hook"
+msgstr "Rastrear la ejecución de un hook de WordPress"
+
+#: settings/config/config.php:462
+msgid "Hook"
+msgstr "Hook (Gancho)"
+
+#: settings/config/config.php:378
+msgid "Using summary tables speeds up the dashboard on higher traffic environments, but can show small differences from the actual data."
+msgstr "El uso de tablas de resumen acelera el escritorio en entornos de mayor tráfico, pero puede mostrar pequeñas diferencias con los datos reales."
+
+#: settings/config/config.php:377
+msgid "Disable the usage of summary tables"
+msgstr "Desactivar el uso de tablas resumen"
+
+#: integrations/integrations.php:138 integrations/integrations.php:155
+#: integrations/integrations.php:172 integrations/integrations.php:189
+#: integrations/integrations.php:207
+msgid "Submit form"
+msgstr "Enviar formulario"
+
+#: integrations/integrations.php:117
+msgid "Runs after cancelling a subscription"
+msgstr "Se ejecuta después de cancelar una suscripción"
+
+#: integrations/integrations.php:116
+msgid "Subscription Cancelled"
+msgstr "Suscripción Cancelada"
+
+#: integrations/integrations.php:107
+msgid "Runs after creating a subscription"
+msgstr "Se ejecuta después de crear una suscripción"
+
+#: integrations/integrations.php:106
+msgid "Subscription Created"
+msgstr "Suscripción Creada"
+
+#: integrations/integrations.php:89
+msgid "Purchase"
+msgstr "Compra"
+
+#: integrations/integrations.php:71
+msgid "Runs after completing a payment"
+msgstr "Se ejecuta después de completar un pago"
+
+#: integrations/integrations.php:70
+msgid "Payment Completed"
+msgstr "Pago Completado"
+
+#: integrations/integrations.php:61
+msgid "Runs before the payment"
+msgstr "Se ejecuta antes del pago"
+
+#: integrations/integrations.php:60
+msgid "Order Created"
+msgstr "Pedido creado"
+
+#: integrations/integrations.php:51
+msgid "Runs after clicking 'Add to Cart' button "
+msgstr "Se ejecuta después de pulsar el botón \"Añadir a la cesta\". "
+
+#: integrations/integrations.php:50
+msgid "Add to Cart"
+msgstr "Añadir a la Cesta"
+
+#: integrations/integrations.php:29 integrations/integrations.php:139
+#: integrations/integrations.php:156 integrations/integrations.php:173
+#: integrations/integrations.php:190 integrations/integrations.php:208
+msgid "Runs after submitting a form"
+msgstr "Se ejecuta después de enviar un formulario"
+
+#: integrations/integrations.php:28
+msgid "Form Submission"
+msgstr "Envío del Formulario"
+
+#: class-notices.php:173
+msgid "New! Send weekly or monthly email reports to multiple recipients."
+msgstr "¡Nuevo! Envía informes por correo electrónico semanales o mensuales a múltiples destinatarios."
+
+#: class-db-upgrade.php:58
+msgid "For large databases this process may take a while. Your data will be tracked as usual."
+msgstr "Para bases de datos grandes, este proceso puede tardar un poco. Tus datos seguirán siendo rastreados como de costumbre."
+
+#. translators: %s: progress of the upgrade.
+#: class-db-upgrade.php:55
+msgid "An upgrade is running in the background, and is currently at %s."
+msgstr "Se está ejecutando una actualización en segundo plano, y actualmente se encuentra en %s."
+
+#: settings/config/config.php:339 settings/config/config.php:340
+msgid "Reset statistics"
+msgstr "Restablecer estadísticas"
+
+#: settings/config/config.php:336
+msgid "This action can not be undone."
+msgstr "Esta acción no se puede deshacer."
+
+#: settings/config/config.php:336 settings/config/config.php:341
+msgid "This will permanently delete all statistics, goals, and goal statistics."
+msgstr "Esto eliminará permanentemente todas las estadísticas, objetivos y estadísticas de objetivos."
+
+#: settings/config/config.php:335
+msgid "Are you sure?"
+msgstr "¿Estás seguro?"
+
+#: settings/config/config.php:209
+msgid "Change logo in the email reports"
+msgstr "Cambiar el logotipo en los informes por correo electrónico"
+
+#: settings/config/config.php:39
+msgid "Get weekly or monthly reports sent to your email."
+msgstr "Recibe informes semanales o mensuales en tu correo electrónico."
+
+#: settings/config/config.php:38 settings/config/config.php:200
+msgid "Email reports"
+msgstr "Informes por correo electrónico"
+
+#: mailer/class-mailer.php:198
+msgid "Email notification error"
+msgstr "Error de notificación por correo electrónico"
+
+#: mailer/class-mailer.php:193
+msgid "An error occurred:"
+msgstr "Se ha producido un error:"
+
+#: mailer/class-mailer.php:191
+msgid "Email could not be sent."
+msgstr "No se ha podido enviar el correo electrónico."
+
+#: mailer/class-mailer.php:186
+msgid "Email sent! Please check your mail"
+msgstr "¡Correo electrónico enviado! Por favor, comprueba tu correo"
+
+#: mailer/class-mailer.php:185
+msgid "Email verification"
+msgstr "Verificación del correo electrónico"
+
+#: mailer/class-mailer.php:109
+msgid "Email address not valid"
+msgstr "Dirección de correo electrónico no válida"
+
+#: mailer/class-mailer.php:105
+msgid "Email could not be sent. No message or subject set."
+msgstr "No se ha podido enviar el correo electrónico. No hay mensaje ni asunto establecidos."
+
+#: mailer/class-mailer.php:62
+msgid "Explore your insights"
+msgstr "Explora tus conocimientos"
+
+#: mailer/class-mailer.php:60
+msgid "Dive deeper into your analytics and uncover new opportunities for %s."
+msgstr "Profundiza en tus análisis y descubre nuevas oportunidades para %s."
+
+#: mailer/class-mailer.php:59
+msgid "Find out more"
+msgstr "Saber más"
+
+#: mailer/class-mailer.php:45
+msgid "Why did I receive this email?"
+msgstr "¿Por qué he recibido este correo electrónico?"
+
+#: mailer/class-mailer.php:44
+msgid "This email was sent to"
+msgstr "Este correo electrónico se envió a"
+
+#: mailer/class-mailer.php:43
+msgid "Learn more"
+msgstr "Más información"
+
+#: mailer/class-mailer.php:41
+msgid "See full report"
+msgstr "Ver el informe completo"
+
+#: mailer/class-mailer.php:39
+msgid "If you don't want to receive these e-mails in your inbox, please go to the Burst settings page on your website and disable the email report setting or contact the administrator of your website."
+msgstr "Si no quieres recibir estos correos en tu bandeja de entrada, ve a la página de configuración de Burst en tu sitio web y desactiva la opción de informes por correo, o contacta al administrador de tu sitio web."
+
+#: mailer/class-mailer.php:38
+msgid "This e-mail is sent from your own WordPress website, which is:"
+msgstr "Este correo electrónico se envía desde tu propio sitio web de WordPress, que es:"
+
+#: mailer/class-mail-reports.php:216
+msgid "vs. previous month"
+msgstr "vs. mes anterior"
+
+#: mailer/class-mail-reports.php:216
+msgid "vs. previous week"
+msgstr "vs. semana anterior"
+
+#: mailer/class-mail-reports.php:108 mailer/class-mail-reports.php:109
+#: mailer/class-mailer.php:40 mailer/class-mailer.php:42
+msgctxt "domain name"
+msgid "Your weekly insights for %s are here!"
+msgstr "¡Aquí están tus análisis semanales para %s!"
+
+#: mailer/class-mail-reports.php:106
+msgid "This report covers the period from %s to %s."
+msgstr "Este informe cubre el período del %s al %s."
+
+#: mailer/class-mail-reports.php:86 mailer/class-mail-reports.php:87
+msgctxt "domain name"
+msgid "Your monthly insights for %s are here!"
+msgstr "¡Aquí están tus análisis mensuales para %s!"
+
+#: class-admin.php:644
+msgid "Successfully cleared data."
+msgstr "Datos eliminados con éxito"
+
+#: statistics/class-statistics.php:684
+msgid "No metrics were set"
+msgstr "No se ha establecido ninguna métrica"
+
+#: statistics/class-statistics.php:49
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/components/blocks/DataTableBlock.js:51
+msgid "Page URL"
+msgstr "URL de la página"
+
+#: settings/config/config.php:540
+msgid "What hook do you want to track?"
+msgstr "¿Qué hook (gancho) quiere rastrear?"
+
+#: settings/config/config.php:390
+msgid "Track all hits networkwide, and view them on the dashboard of your main site"
+msgstr "Rastrea todas las visitas en toda la red y visualízalas en el panel de tu sitio principal."
+
+#: settings/config/config.php:274
+msgid "Boost site speed by merging the Burst settings into the Burst script. This simplifies management and improves loading times, ideal for headless sites or strict security policies."
+msgstr "Mejora la velocidad del sitio combinando la configuración de Burst en el script de Burst. Esto simplifica la gestión y mejora los tiempos de carga, ideal para sitios sin interfaz o con políticas de seguridad estrictas."
+
+#: settings/config/config.php:273
+msgid "Merge tracking settings and script for optimized delivery"
+msgstr "Combinar la configuración de seguimiento y el script para una entrega optimizada."
+
+#: settings/config/config.php:270
+msgid "Merge tracking settings and script"
+msgstr "Fusionar la configuración de seguimiento y el script"
+
+#: settings/config/config.php:89
+msgid "Scripts"
+msgstr "Scripts"
+
+#: integrations/integrations.php:90
+msgid "Runs after purchasing an item"
+msgstr "Se ejecuta después de comprar un artículo"
+
+#: class-review.php:110
+msgid "Hi there! Your site is doing awesome! Burst Statistics has tracked %s visitors for you!"
+msgstr "¡Hola! ¡Tu sitio web va viento en popa. ¡Burst Statistics ha rastreado %s visitantes para usted!"
+
+#: class-notices.php:161
+msgid "New! Track your UTM Campaigns and URL Parameters! Click on the 'Pages' dropdown in the Statistics tab."
+msgstr "¡Nuevo! ¡Sigue tus campañas UTM y parámetros de URL! Haz clic en el menú desplegable 'Páginas' en la pestaña de Estadísticas."
+
+#: class-frontend.php:247
+msgid "No posts found"
+msgstr "No se encontraron entradas"
+
+#: class-frontend.php:336
+msgid "This page has been viewed %d time."
+msgid_plural "This page has been viewed %d times."
+msgstr[0] "Esta página ha sido vista %d vez."
+msgstr[1] "Esta página ha sido vista %d veces."
+
+#: upgrade/upgrade-to-pro.php:346
+msgid "Recommended by Burst Statistics"
+msgstr "Recomendado por Burst Statistics"
+
+#: upgrade/upgrade-to-pro.php:150
+msgid "Get detailed insights into visitors' behaviour with Burst Statistics, the privacy-friendly analytics dashboard."
+msgstr "Obtén información detallada sobre el comportamiento de los visitantes con Burst Statistics, el escritorio de análisis respetuoso con la privacidad."
+
+#: statistics/class-statistics.php:181
+msgctxt "Week 1, as in Week number 1"
+msgid "Week"
+msgstr "Semana"
+
+#: mailer/class-mail-reports.php:254 statistics/class-statistics.php:58
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/components/blocks/DataTableBlock.js:33
+#: settings/src/components/blocks/PagesBlock.js:38
+msgid "Bounce rate"
+msgstr "Tasa de rebote"
+
+#: statistics/class-statistics.php:55
+msgid "New visitors"
+msgstr "Nuevos visitantes"
+
+#: statistics/class-statistics.php:54
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/components/blocks/DataTableBlock.js:38
+#: settings/src/components/blocks/PagesBlock.js:44
+msgid "Time on page"
+msgstr "Tiempo en la página"
+
+#: statistics/class-goal-statistics.php:79
+msgid "Top performing page"
+msgstr "Página de mayor rendimiento"
+
+#: settings/settings.php:645
+msgid "Lightweight plugin. Heavyweight security features."
+msgstr "Plugin ligero. Funciones de seguridad avanzadas."
+
+#: settings/config/config.php:553
+msgid "What metric do you want to use to calculate the conversion rate?"
+msgstr "¿Qué métrica deseas utilizar para calcular la tasa de conversión?"
+
+#: class-admin.php:111 class-frontend.php:308
+msgid "Go to dashboard"
+msgstr "Ir al escritorio"
+
+#: settings/config/config.php:350
+msgid "Please confirm the deletion, without the possibility to restore."
+msgstr "Por favor, confirma la eliminación, sin la posibilidad de restauración."
+
+#: settings/config/config.php:320
+msgid "Retain data for how many months?"
+msgstr "¿Cuántos meses deseas conservar los datos?"
+
+#: settings/config/config.php:311
+msgctxt "e.g. Burst currently uses 10 MB of your database."
+msgid "Burst currently uses %s of your database."
+msgstr "Burst actualmente utiliza %s de tu base de datos."
+
+#: settings/config/config.php:308
+msgid "Choose how to manage old statistics"
+msgstr "Elige cómo gestionar las estadísticas antiguas"
+
+#: settings/config/config.php:300
+msgid "Managing old data can optimize storage and improve site performance. Choose to archive or delete based on your needs."
+msgstr "Gestionar datos antiguos puede optimizar el almacenamiento y mejorar el rendimiento del sitio. Elije archivar o eliminar según tus necesidades."
+
+#: settings/config/config.php:299
+msgid "Why should I manage old data?"
+msgstr "¿Por qué deberías gestionar datos antiguos?"
+
+#: settings/config/config.php:288
+msgid "Automatically Delete"
+msgstr "Eliminar automáticamente"
+
+#: settings/config/config.php:287
+msgid "Automatically Archive"
+msgstr "Archivar automáticamente"
+
+#: settings/config/config.php:286
+msgid "Don't manage"
+msgstr "No gestionar"
+
+#: settings/config/config.php:73
+msgid "Manage your archived data with %sBurst Pro%s"
+msgstr "Gestiona tus datos archivados con %sBurst Pro%s"
+
+#: settings/config/config.php:67
+msgid "Archived Data"
+msgstr "Datos Archivados"
+
+#: settings/config/config.php:63
+msgid "Archiving"
+msgstr "Archivando"
+
+#: settings/config/config.php:58
+msgid "Data"
+msgstr "Datos"
+
+#: class-notices.php:110
+msgid "Please check if your REST API is loading correctly. Your site currently is using the slower Ajax fallback method to load the settings."
+msgstr "Por favor, comprueba si tu API REST se está cargando correctamente. Tu sitio está utilizando actualmente el método alternativo Ajax más lento para cargar los ajustes."
+
+#: statistics/class-goal-statistics.php:115
+msgid "Best performing device"
+msgstr "Dispositivo con mejor rendimiento"
+
+#: statistics/class-goal-statistics.php:113
+msgid "Not enough data"
+msgstr "Datos insuficientes"
+
+#: statistics/class-goal-statistics.php:108
+msgid "Conversion rate"
+msgstr "Tasa de conversión"
+
+#: settings/config/config.php:527
+msgid "What element do you want to track?"
+msgstr "¿Qué elemento deseas rastrear?"
+
+#: settings/config/config.php:502
+msgid "Which specific page do you want to track?"
+msgstr "¿Qué página específica deseas rastrear?"
+
+#: settings/config/config.php:485
+msgid "Track on whole site"
+msgstr "Rastrear en todo el sitio"
+
+#: settings/config/config.php:484
+msgid "Website"
+msgstr "Web"
+
+#: settings/config/config.php:479
+msgid "Track page specific"
+msgstr "Rastrear página específica"
+
+#: settings/config/config.php:475
+msgid "Do you want to track a specific page or the entire website?"
+msgstr "¿Deseas hacer un seguimiento de una página concreta o toda la web?"
+
+#: settings/config/config.php:456
+msgid "Track visits to page"
+msgstr "Rastrear visitas a la página"
+
+#: settings/config/config.php:449
+msgid "Track views of element"
+msgstr "Rastrear visualizaciones del elemento"
+
+#: settings/config/config.php:442
+msgid "Track clicks on element"
+msgstr "Rastrear clics en el elemento"
+
+#: settings/config/config.php:438
+msgid "What type of goal do you want to set?"
+msgstr "¿Qué tipo de objetivo quieres marcarte?"
+
+#: settings/config/config.php:230
+msgid "To set goals for a website, you need to identify the purpose of the site and the key actions you want visitors to take. Set measurable and achievable goals for each action and track your progress."
+msgstr "Para establecer los objetivos para un sitio web, necesitas identificar el propósito del sitio y las acciones clave que quieres que los visitantes realicen. Establece metas medibles y alcanzables para cada acción y rastrea tu progreso."
+
+#: settings/config/config.php:229
+msgid "How to set goals?"
+msgstr "¿Cómo configurar objetivos?"
+
+#: goals/class-goal.php:57 settings/build/956.61a3dcf3121e873e4612.js:1
+#: settings/src/components/blocks/Goals/GoalSetup.js:59
+msgid "New goal"
+msgstr "Nuevo objetivo"
+
+#: settings/config/config.php:448
+msgid "Views"
+msgstr "Vistas"
+
+#: settings/config/config.php:441
+msgid "Clicks"
+msgstr "Clics"
+
+#: class-notices.php:73 settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/build/956.61a3dcf3121e873e4612.js:1
+#: settings/src/components/blocks/Fields/Pro.js:19
+#: settings/src/components/blocks/ProPill.js:6
+msgid "Pro"
+msgstr "Pro"
+
+#: class-admin.php:266
+msgid "Default goal"
+msgstr "Objetivo por defecto"
+
+#: settings/config/config.php:180
+msgid "Honor 'Do Not Track' requests"
+msgstr "Respeta las solicitudes de \"No rastrear (Do Not Track)\""
+
+#: upgrade/upgrade-to-pro.php:465
+msgid "Could not rename folder!"
+msgstr "No se ha podido cambiar el nombre de la carpeta."
+
+#: statistics/class-statistics.php:50
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/components/blocks/DataTableBlock.js:108
+msgid "Referrer"
+msgstr "Remitente"
+
+#: statistics/class-statistics.php:136
+msgid "Average time on page"
+msgstr "Tiempo medio en la página"
+
+#: statistics/class-statistics.php:131
+msgid "Total pageviews"
+msgstr "Total de páginas vistas"
+
+#: statistics/class-statistics.php:128
+msgid "This website referred the most visitors."
+msgstr "Esta web fue la que más visitantes remitió."
+
+#: statistics/class-statistics.php:123
+msgid "This is your most viewed page for today."
+msgstr "Esta es la página más vista del día."
+
+#: statistics/class-statistics.php:118
+msgid "This is the total amount of unique visitors for today."
+msgstr "Esta es la cantidad total de visitantes únicos de hoy."
+
+#: statistics/class-statistics.php:114
+msgid "The amount of people using your website right now. The data updates every 5 seconds."
+msgstr "La cantidad de personas que utilizan tu sitio web en este momento. Los datos se actualizan cada 5 segundos."
+
+#: statistics/class-statistics.php:57
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/components/blocks/InsightsHeader.js:21
+msgid "Bounces"
+msgstr "Rebotes"
+
+#: settings/settings.php:660
+msgid "Terms and Conditions"
+msgstr "Términos y condiciones"
+
+#: mailer/class-mail-reports.php:203
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/components/blocks/AcquisitionBlock.js:27
+#: settings/src/components/blocks/DataTableBlock.js:103
+#: settings/src/components/blocks/Fields/AcquisitionSwitch.js:16
+msgid "Referrers"
+msgstr "Remitentes"
+
+#: settings/config/config.php:46 settings/config/config.php:51
+#: settings/config/config.php:226 settings/build/216.5054fa419a070b46abb4.js:1
+#: settings/src/components/blocks/GoalsBlock.js:154
+#: settings/src/components/blocks/GoalsBlock.js:171
+msgid "Goals"
+msgstr "Objetivos"
+
+#: settings/config/config.php:261
+msgid "Exclude IP address from tracking, separate with a line break"
+msgstr "Excluir dirección IP del seguimiento, separar con un salto de línea"
+
+#: settings/config/config.php:247
+msgid "You can exclude visitors by user role and IP address. This will affect new data only."
+msgstr "Puedes excluir visitantes por rol de usuario y dirección IP. Esto sólo afectará a los datos nuevos."
+
+#: settings/config/config.php:246
+msgid "Excluding visitors"
+msgstr "Excluyendo visitantes"
+
+#: settings/config/config.php:243
+msgid "Exclude user roles from being tracked"
+msgstr "Excluir perfiles de usuario del seguimiento"
+
+#: settings/config/config.php:191
+msgid "Restart plugin tour"
+msgstr "Reiniciar el recorrido del plugin"
+
+#: settings/config/config.php:190
+msgid "Restart"
+msgstr "Reiniciar"
+
+#: settings/config/config.php:166
+msgid "With cookieless tracking enabled, Burst will not use cookies to determine the number of unique visitors. It will use contextual data, like the browser version and device, also called 'fingerprinting'. The latter could be less reliable for some users."
+msgstr "Con el seguimiento sin cookies activado, Burst no utilizará cookies para determinar el número de visitantes únicos. Utilizará datos contextuales, como la versión del navegador y el dispositivo, también llamados \"huellas dactilares\". Esto último podría ser menos fiable para algunos usuarios."
+
+#: settings/config/config.php:165
+msgid "What is Cookieless tracking?"
+msgstr "¿Qué es el rastreo sin Cookies?"
+
+#: settings/config/config.php:148
+msgid "Turbo mode improves pagespeed. When enabled, the script is no longer loaded in the header asynchronously, but is loaded in the footer and deferred. You could lose data from visitors who leave before the page has fully loaded."
+msgstr "El modo turbo mejora la velocidad de navegación. Cuando está activado, el script ya no se carga en la cabecera de forma asíncrona, sino que se carga en el pie de página y en diferido. Podrías perder datos de los visitantes que abandonan la página antes de que se haya cargado por completo."
+
+#: settings/config/config.php:147
+msgid "What is Turbo mode?"
+msgstr "¿Qué es el modo Turbo?"
+
+#: settings/config/config.php:85
+msgid "Tracking"
+msgstr "Seguimiento"
+
+#: settings/config/config.php:80
+msgid "Advanced"
+msgstr "Avanzado"
+
+#: settings/config/config.php:29 settings/config/config.php:34
+msgid "General"
+msgstr "General"
+
+#: cron.php:28
+msgid "Once every 5 minutes"
+msgstr "Una vez cada 5 minutos"
+
+#: class-notices.php:71
+msgid "Error"
+msgstr "Error"
+
+#: class-notices.php:70
+msgid "Warning"
+msgstr "Advertencia"
+
+#: class-notices.php:143
+msgid "Black Friday sale! Get 40% Off Burst Pro."
+msgstr "¡Rebajas del Black Friday! Consigue un 40% de descuento en Burst Pro."
+
+#: class-notices.php:69
+msgid "New!"
+msgstr "¡Novedad!"
+
+#: settings/config/config.php:144
+msgid "Enable Turbo mode"
+msgstr "Activar el modo Turbo"
+
+#: class-notices.php:126
+msgid "Due to your server or website configuration it is not possible to track statistics."
+msgstr "Debido a la configuración de tu servidor o web no es posible realizar un seguimiento de las estadísticas."
+
+#: settings/config/config.php:162
+msgid "Enable Cookieless tracking"
+msgstr "Activar Cookieless tracking (rastreo sin cookies)"
+
+#: statistics/class-statistics.php:948 statistics/class-statistics.php:961
+msgid "No pageviews"
+msgstr "No hay páginas vistas"
+
+#: statistics/class-statistics.php:925 statistics/class-statistics.php:959
+msgid "No referrers"
+msgstr "No hay remitentes"
+
+#. Plugin Name of the plugin
+#: burst.php
+msgid "Burst Statistics - Privacy-Friendly Analytics for WordPress"
+msgstr "Burst Statistics - Análisis de privacidad para WordPress"
+
+#: class-admin.php:206
+msgid "This website uses Burst Statistics, a Privacy-Friendly Statistics Tool to analyze visitor behavior. For this functionality we (this website) collect anonymized data, stored locally without sharing it with other parties. For more information, please read the %s Privacy Statement %s from Burst."
+msgstr "Este sitio web usa Burst Statistics, una herramienta de estadísticas que respeta la privacidad, para analizar el comportamiento de los visitantes. Para esta funcionalidad nosotros (este sitio web) recogemos datos anónimos, almacenados localmente, sin compartirlos con otras partes. Para más información, lee la %s Declaración de Privacidad %s de Burst."
+
+#. Plugin URI of the plugin
+#: burst.php
+msgid "https://www.wordpress.org/plugins/burst-statistics"
+msgstr "https://es-co.wordpress.org/plugins/burst-statistics"
+
+#: settings/media/media-override.php:164
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/build/956.61a3dcf3121e873e4612.js:1
+#: settings/src/components/blocks/DataTableBlock.js:382
+#: settings/src/components/blocks/Fields/RestoreArchivesControl.js:50
+#: settings/src/components/blocks/Fields/RestoreArchivesControl.js:346
+#: settings/src/components/blocks/PagesBlock.js:88
+msgid "Search"
+msgstr "Buscar"
+
+#: upgrade/upgrade-to-pro.php:599
+msgid "Your license key has reached its activation limit."
+msgstr "Tu clave de licencia ha alcanzado el límite de activación."
+
+#: upgrade/upgrade-to-pro.php:596
+msgid "This appears to be an invalid license key for this plugin."
+msgstr "Parece que se trata de una clave de licencia no válida para este plugin."
+
+#: upgrade/upgrade-to-pro.php:593
+msgid "Your license is not active for this URL."
+msgstr "Tu licencia no está activa para esta URL."
+
+#: upgrade/upgrade-to-pro.php:590
+msgid "Invalid license."
+msgstr "Licencia inválida."
+
+#: upgrade/upgrade-to-pro.php:587
+msgid "Missing license."
+msgstr "Falta la licencia."
+
+#: upgrade/upgrade-to-pro.php:584
+msgid "Your license key has been disabled."
+msgstr "Tu clave de licencia ha sido desactivada."
+
+#: upgrade/upgrade-to-pro.php:578
+msgid "Your license key expired on %s."
+msgstr "Tu clave de licencia expiró el %s."
+
+#: upgrade/upgrade-to-pro.php:570 upgrade/upgrade-to-pro.php:602
+msgid "An error occurred, please try again."
+msgstr "Se ha producido un error, por favor inténtalo de nuevo."
+
+#: upgrade/upgrade-to-pro.php:391
+msgid "Check your %slicense%s."
+msgstr "Comprueba tu %slicencia%s."
+
+#: upgrade/upgrade-to-pro.php:390
+msgid "Install %sManually%s."
+msgstr "Instalar %sManualmente%s."
+
+#: upgrade/upgrade-to-pro.php:390 upgrade/upgrade-to-pro.php:391
+msgid "An Error Occurred:"
+msgstr "Se ha producido un error:"
+
+#: upgrade/upgrade-to-pro.php:385
+msgid "Visit Dashboard"
+msgstr "Visitar Escritorio"
+
+#: upgrade/upgrade-to-pro.php:374
+msgid "Installing"
+msgstr "Instalando"
+
+#: upgrade/upgrade-to-pro.php:236
+msgid "Installation finished"
+msgstr "Instalación terminada"
+
+#: upgrade/upgrade-to-pro.php:180
+msgid "Really Simple SSL automatically detects your settings and configures your website to run over HTTPS. To keep it lightweight, we kept the options to a minimum. Your website will move to SSL with one click."
+msgstr "Really Simple SSL detecta automáticamente tus ajustes y configura tu sitio web para que funcione con HTTPS. Para mantenerlo ligero, hemos mantenido las opciones al mínimo. Tu sitio web pasará a SSL con un solo clic."
+
+#: upgrade/upgrade-to-pro.php:176
+msgid "One click SSL optimization"
+msgstr "Optimización SSL con un solo clic"
+
+#: upgrade/upgrade-to-pro.php:163
+msgid "Configure your Cookie Notice, Cookie Consent and Cookie Policy with our Wizard and Cookie Scan. Supports GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA and PIPEDA."
+msgstr "Configura tu Aviso de Cookies, Consentimiento de Cookies y Política de Cookies con nuestro Asistente y Escaneo de Cookies. Soporta GDPR, DSGVO, TTDSG, LGPD, POPIA, RGPD, CCPA y PIPEDA."
+
+#: upgrade/upgrade-to-pro.php:159
+msgid "GDPR/CCPA Privacy Suite"
+msgstr "GDPR/CCPA Privacy Suite"
+
+#: upgrade/upgrade-to-pro.php:146
+msgid "Self-hosted and privacy-friendly analytics tool."
+msgstr "Herramienta de análisis autogestionada y respetuosa con la privacidad."
+
+#: upgrade/upgrade-to-pro.php:113
+msgid "Failed to activate plugin"
+msgstr "Fallo en la activación del plugin"
+
+#: upgrade/upgrade-to-pro.php:112
+msgid "Plugin activated"
+msgstr "Plugin activado"
+
+#: upgrade/upgrade-to-pro.php:111
+msgid "Activating plugin..."
+msgstr "Activando el plugin..."
+
+#: upgrade/upgrade-to-pro.php:106
+msgid "Failed to install plugin"
+msgstr "Fallo en la instalación del plugin"
+
+#: upgrade/upgrade-to-pro.php:105
+msgid "Plugin installed"
+msgstr "Plugin instalado"
+
+#: upgrade/upgrade-to-pro.php:104
+msgid "Installing plugin..."
+msgstr "Instalando el plugin..."
+
+#: upgrade/upgrade-to-pro.php:99
+msgid "Failed to gather package information"
+msgstr "No se ha podido recoger la información del paquete"
+
+#: upgrade/upgrade-to-pro.php:98
+msgid "Package information retrieved"
+msgstr "Información del paquete recuperada"
+
+#: upgrade/upgrade-to-pro.php:97
+msgid "Retrieving package information..."
+msgstr "Recuperando la información del paquete..."
+
+#: upgrade/upgrade-to-pro.php:92
+msgid "License invalid"
+msgstr "Licencia inválida"
+
+#: upgrade/upgrade-to-pro.php:91
+msgid "License valid"
+msgstr "Licencia válida"
+
+#: upgrade/upgrade-to-pro.php:90
+msgid "Validating license..."
+msgstr "Validando la licencia..."
+
+#: upgrade/upgrade-to-pro.php:85
+msgid "Destination folder already exists"
+msgstr "La carpeta de destino ya existe"
+
+#: upgrade/upgrade-to-pro.php:84
+msgid "Able to create destination folder"
+msgstr "Posibilidad de crear una carpeta de destino"
+
+#: upgrade/upgrade-to-pro.php:83
+msgid "Checking if plugin folder exists..."
+msgstr "Comprobando si la carpeta de plugins existe..."
+
+#: statistics/class-goal-statistics.php:213
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/api/getDevicesData.js:13
+#: settings/src/components/blocks/DevicesBlock.js:24
+#: settings/src/components/blocks/PageFilter.js:44
+msgid "Other"
+msgstr "Otros"
+
+#: statistics/class-goal-statistics.php:206
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/api/getDevicesData.js:12
+#: settings/src/components/blocks/DevicesBlock.js:23
+#: settings/src/components/blocks/PageFilter.js:42
+msgid "Mobile"
+msgstr "Móvil"
+
+#: statistics/class-goal-statistics.php:209
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/api/getDevicesData.js:11
+#: settings/src/components/blocks/DevicesBlock.js:22
+#: settings/src/components/blocks/PageFilter.js:40
+msgid "Tablet"
+msgstr "Tableta"
+
+#: statistics/class-goal-statistics.php:203
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/api/getDevicesData.js:10
+#: settings/src/components/blocks/DevicesBlock.js:21
+#: settings/src/components/blocks/PageFilter.js:38
+msgid "Desktop"
+msgstr "Ordenador"
+
+#: mailer/class-mail-reports.php:221
+msgid "Most visited pages"
+msgstr "Páginas más visitadas"
+
+#: mailer/class-mail-reports.php:251 settings/config/config.php:556
+#: statistics/class-goal-statistics.php:100 statistics/class-statistics.php:53
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/api/getCompareData.js:12 settings/src/api/getCompareData.js:20
+#: settings/src/api/getCompareData.js:38 settings/src/api/getCompareData.js:69
+#: settings/src/components/blocks/CompareBlock.js:21
+#: settings/src/components/blocks/DataTableBlock.js:25
+#: settings/src/components/blocks/InsightsHeader.js:14
+#: settings/src/components/blocks/PagesBlock.js:34
+msgid "Visitors"
+msgstr "Visitantes"
+
+#: class-notices.php:187
+msgid "If you have any suggestions to improve our plugin, feel free to %sopen a support thread%s."
+msgstr "Si tienes alguna sugerencia para mejorar nuestro plugin, no dudes en %sabrir un hilo de soporte%s."
+
+#: settings/settings.php:653
+msgid "Complianz Privacy Suite - Cookie Consent Management as it should be"
+msgstr "Complianz Privacy Suite - Gestión del consentimiento de cookies como debe ser"
+
+#: mailer/class-mail-reports.php:248 settings/config/config.php:561
+#: statistics/class-goal-statistics.php:92 statistics/class-statistics.php:52
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/api/getCompareData.js:11 settings/src/api/getCompareData.js:19
+#: settings/src/api/getCompareData.js:32 settings/src/api/getCompareData.js:63
+#: settings/src/components/blocks/CompareBlock.js:20
+#: settings/src/components/blocks/DataTableBlock.js:21
+#: settings/src/components/blocks/InsightsHeader.js:18
+#: settings/src/components/blocks/PagesBlock.js:30
+msgid "Sessions"
+msgstr "Sesiones"
+
+#: statistics/class-statistics.php:946
+msgid "Homepage"
+msgstr "Página de inicio"
+
+#: mailer/class-mail-reports.php:306 statistics/class-statistics.php:923
+#: statistics/class-statistics.php:1062
+msgid "Direct"
+msgstr "Directo"
+
+#: cron.php:36
+msgid "Once every hour"
+msgstr "Una vez cada hora"
+
+#: cron.php:32
+msgid "Once every day"
+msgstr "Una vez al día"
+
+#: cron.php:40
+msgid "Once every week"
+msgstr "Una vez por semana"
+
+#: class-notices.php:72
+msgid "Open"
+msgstr "Abrir"
+
+#: class-notices.php:68 settings/build/216.5054fa419a070b46abb4.js:1
+#: settings/src/components/blocks/ProgressBlock.js:26
+msgid "Completed"
+msgstr "Completado"
+
+#: class-review.php:137
+msgid "Don't show again"
+msgstr "No volver a mostrar"
+
+#: class-review.php:130
+msgid "Maybe later"
+msgstr "Tal vez más tarde"
+
+#: class-review.php:125
+msgid "Leave a review"
+msgstr "Deja tu opinión"
+
+#: class-review.php:120
+msgid "If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it!"
+msgstr "Si tienes un momento, considera la posibilidad de dejar una reseña en WordPress.org para hacer correr la voz. Te lo agradeceremos mucho!"
+
+#: class-review.php:115
+msgid "If you have any questions or feedback, leave us a %smessage%s."
+msgstr "Si tienes alguna pregunta o comentario, déjanos un %smensaje%s."
+
+#: class-review.php:112
+msgid "Hi, you have been using Burst for more than a month now, awesome!"
+msgstr "Hola, llevas más de un mes usando Burst, ¡impresionante!"
+
+#: class-admin.php:584
+msgid "Deactivate and delete all data"
+msgstr "Desactivar y borrar todos los datos"
+
+#: class-admin.php:563
+msgid "The data will be gone forever."
+msgstr "Los datos desaparecerán para siempre."
+
+#: class-admin.php:562
+msgid "Deactivate, and remove all statistics, experiments and settings."
+msgstr "Desactivar, y eliminar todas las estadísticas, experimentos y ajustes."
+
+#: class-admin.php:560 class-admin.php:582
+#: settings/build/956.61a3dcf3121e873e4612.js:1
+#: settings/src/components/blocks/Fields/License.js:79
+msgid "Deactivate"
+msgstr "Desactivar"
+
+#: class-admin.php:557
+msgid "To deactivate the plugin correctly, please select if you want to:"
+msgstr "Para desactivar el plugin correctamente, por favor selecciona si deseas:"
+
+#: class-admin.php:104 class-admin.php:372 class-frontend.php:301
+#: mailer/class-mail-reports.php:187 mailer/class-mail-reports.php:203
+#: mailer/class-mail-reports.php:245 settings/config/config.php:566
+#: statistics/class-goal-statistics.php:84 statistics/class-statistics.php:51
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/api/getCompareData.js:10 settings/src/api/getCompareData.js:18
+#: settings/src/api/getCompareData.js:26 settings/src/api/getCompareData.js:57
+#: settings/src/components/blocks/CompareBlock.js:19
+#: settings/src/components/blocks/DataTableBlock.js:17
+#: settings/src/components/blocks/InsightsHeader.js:10
+#: settings/src/components/blocks/PagesBlock.js:26
+msgid "Pageviews"
+msgstr "Páginas visitadas"
+
+#: mailer/class-mail-reports.php:187 settings/config/config.php:478
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/build/216.5054fa419a070b46abb4.js:1
+#: settings/src/store/useFiltersStore.js:21
+msgid "Page"
+msgstr "Página"
+
+#: upgrade/upgrade-to-pro.php:148 upgrade/upgrade-to-pro.php:161
+#: upgrade/upgrade-to-pro.php:178 settings/build/216.5054fa419a070b46abb4.js:1
+#: settings/src/components/blocks/OtherPluginsBlock.js:71
+msgid "Install"
+msgstr "Instalar"
+
+#: class-admin.php:302 settings/settings.php:252
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/build/956.61a3dcf3121e873e4612.js:1
+#: settings/build/index.0dcc7afbdb7b25ce50ea.js:1
+#: settings/src/components/blocks/Goals/GoalsSettings.js:106
+#: settings/src/components/blocks/ProPopover.js:45
+#: settings/src/components/common/Header.js:52
+msgid "Upgrade to Pro"
+msgstr "Actualizar a pro"
+
+#: upgrade/upgrade-to-pro.php:192 settings/build/216.5054fa419a070b46abb4.js:1
+#: settings/src/components/blocks/OtherPluginsBlock.js:92
+msgid "Installed"
+msgstr "Instalado"
+
+#: settings/config/config.php:8 settings/settings.php:273
+msgid "Dashboard"
+msgstr "Escritorio"
+
+#: mailer/class-mail-reports.php:226
+msgid "Top referrers"
+msgstr "Principales referencias"
+
+#: mailer/class-mail-reports.php:215
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/components/blocks/CompareBlock.js:53
+msgid "Compare"
+msgstr "Métricas"
+
+#: settings/config/config.php:455
+msgid "Visits"
+msgstr "Visitas"
+
+#: statistics/class-statistics.php:56
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/api/getCompareData.js:17 settings/src/api/getCompareData.js:51
+#: settings/src/api/getPagesData.js:47
+#: settings/src/components/blocks/DataTableBlock.js:29
+#: settings/src/components/blocks/InsightsHeader.js:24
+msgid "Conversions"
+msgstr "Conversiones"
+
+#: class-admin.php:71 class-frontend.php:268 settings/config/config.php:15
+#: settings/settings.php:205 settings/settings.php:230
+#: settings/settings.php:231 settings/settings.php:273
+msgid "Statistics"
+msgstr "Estadísticas"
+
+#: class-admin.php:296 settings/build/index.0dcc7afbdb7b25ce50ea.js:1
+#: settings/src/components/common/Header.js:45
+msgid "Support"
+msgstr "Soporte"
+
+#: class-admin.php:286 settings/config/config.php:22 settings/settings.php:239
+#: settings/settings.php:240
+msgid "Settings"
+msgstr "Ajustes"
+
+#: class-admin.php:580 settings/media/media-override.php:166
+#: upgrade/upgrade-to-pro.php:388 settings/build/956.61a3dcf3121e873e4612.js:1
+#: settings/src/components/blocks/Fields/ButtonControl.js:57
+#: settings/src/components/blocks/Goals/DeleteGoalModal.js:29
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: settings/media/media-override.php:206
+#: settings/build/204.743d104e78f2dddb3a39.js:1
+#: settings/src/components/blocks/PopoverFilter.js:71
+msgid "Apply"
+msgstr "Aplicar"
+
+#. Author URI of the plugin
+#: burst.php
+msgid "https://burst-statistics.com"
+msgstr "https://burst-statistics.com"

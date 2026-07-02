@@ -1,0 +1,16 @@
+[12-Nov-2024 18:18:13 UTC] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home/enuh2atmk16f/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-includes/blocks/index.php on line 8
+[29-Mar-2026 17:03:49 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/enuh2atmk16f/public_html/wp-includes/blocks/latest-posts.php:240
+Stack trace:
+#0 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-includes/blocks/latest-posts.php on line 240
+[29-Mar-2026 17:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/enuh2atmk16f/public_html/wp-includes/blocks/rss.php:145
+Stack trace:
+#0 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-includes/blocks/rss.php on line 145
+[29-Mar-2026 17:03:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/enuh2atmk16f/public_html/wp-includes/blocks/search.php:213
+Stack trace:
+#0 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-includes/blocks/search.php on line 213

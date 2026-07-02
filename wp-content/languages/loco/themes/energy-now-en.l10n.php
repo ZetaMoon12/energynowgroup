@@ -1,0 +1,2 @@
+<?php
+return ['project-id-version'=>'Energy Now','report-msgid-bugs-to'=>'','pot-creation-date'=>'2026-05-11 17:00+0000','po-revision-date'=>'2026-05-11 17:01+0000','last-translator'=>'','language-team'=>'English','language'=>'en','plural-forms'=>'nplurals=2; plural=n != 1;','mime-version'=>'1.0','content-type'=>'text/plain; charset=UTF-8','content-transfer-encoding'=>'8bit','x-generator'=>'Loco https://localise.biz/','x-loco-version'=>'2.8.4; wp-6.9.4; php-8.2.30','x-domain'=>'energy-now','messages'=>[]];

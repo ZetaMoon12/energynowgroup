@@ -1,0 +1,367 @@
+[11-Feb-2025 01:33:47 UTC] PHP Fatal error:  Uncaught Error: Class "ElementorPro\Modules\GlobalWidget\Data\Controller" not found in /home/enuh2atmk16f/public_html/wp-content/plugins/elementor-pro/modules/global-widget/module.php:36
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/elementor/core/base/module.php(85): ElementorPro\Modules\GlobalWidget\Module->__construct()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/elementor-pro/core/modules-manager.php(97): Elementor\Core\Base\Module::instance()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/elementor-pro/plugin.php(361): ElementorPro\Core\Modules_Manager->__construct()
+#3 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(324): ElementorPro\Plugin->on_elementor_init()
+#4 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#5 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#6 /home/enuh2atmk16f/public_html/wp-content/plugins/elementor/includes/plugin.php(658): do_action()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(324): Elementor\Plugin->init()
+#8 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#9 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#10 /home/enuh2atmk16f/public_html/wp-settings.php(704): do_action()
+#11 /home/enuh2atmk16f/public_html/wp-config.php(105): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/elementor-pro/modules/global-widget/module.php on line 36
+[08-May-2026 13:50:21 UTC] PHP Fatal error:  Uncaught Error: Class "Elementor\Core\Files\CSS\Global_CSS" not found in /home/enuh2atmk16f/public_html/wp-content/plugins/elementor/core/files/manager.php:118
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/elementor/modules/element-cache/module.php(156): Elementor\Core\Files\Manager->clear_cache()
+#1 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(343): Elementor\Modules\ElementCache\Module->clear_cache()
+#2 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#3 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#4 /home/enuh2atmk16f/public_html/wp-admin/includes/class-plugin-upgrader.php(412): do_action()
+#5 /home/enuh2atmk16f/public_html/wp-admin/includes/ajax-actions.php(4653): Plugin_Upgrader->bulk_upgrade()
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): wp_ajax_update_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(192): do_action()
+#10 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/elementor/core/files/manager.php on line 118
+[08-May-2026 21:54:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/options-general.php(10): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 21:55:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/about.php(10): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 21:56:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/about.php(10): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 21:59:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/post.php(12): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 22:00:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/about.php(10): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 22:00:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/index.php(10): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 22:07:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/customize.php(13): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 22:07:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/post.php(12): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 22:07:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/about.php(10): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[08-May-2026 22:54:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#13 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[09-May-2026 08:51:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#13 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[09-May-2026 23:02:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#13 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[09-May-2026 23:49:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#13 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[10-May-2026 12:13:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#13 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[10-May-2026 19:19:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#13 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[10-May-2026 19:50:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#13 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[11-May-2026 13:29:47 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin-ajax.php(22): require_once('/home/enuh2atmk...')
+#13 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[11-May-2026 16:17:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/index.php(10): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[11-May-2026 16:45:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method AutomaticTranslateAddonForTranslatePressBase::SaveWPResponse() in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php:617
+Stack trace:
+#0 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(560): AutomaticTranslateAddonForTranslatePressBase->_check_wp_plugin()
+#1 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php(543): AutomaticTranslateAddonForTranslatePressBase::check_wp_plugin()
+#2 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(435): AutomaticTranslateAddonForTranslatePressBase::CheckWPPlugin()
+#3 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(24): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->tpap_initialize_license()
+#4 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/TranslatepressAutomaticTranslateAddonPro.php(1063): TranslatePressAutoTranslateAddon\Register\TranslatepressAutomaticTranslateAddonPro->__construct()
+#5 /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/automatic-translate-addon-for-translatepress-pro.php(1103): include_once('/home/enuh2atmk...')
+#6 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(341): TranslatePress_Addon_Pro->tpap_check_required_plugin()
+#7 /home/enuh2atmk16f/public_html/wp-includes/class-wp-hook.php(365): WP_Hook->apply_filters()
+#8 /home/enuh2atmk16f/public_html/wp-includes/plugin.php(522): WP_Hook->do_action()
+#9 /home/enuh2atmk16f/public_html/wp-settings.php(593): do_action()
+#10 /home/enuh2atmk16f/public_html/wp-config.php(104): require_once('/home/enuh2atmk...')
+#11 /home/enuh2atmk16f/public_html/wp-load.php(50): require_once('/home/enuh2atmk...')
+#12 /home/enuh2atmk16f/public_html/wp-admin/admin.php(35): require_once('/home/enuh2atmk...')
+#13 /home/enuh2atmk16f/public_html/wp-admin/options-general.php(10): require_once('/home/enuh2atmk...')
+#14 {main}
+  thrown in /home/enuh2atmk16f/public_html/wp-content/plugins/automatic-translate-addon-pro-for-translatepress/admin/Registration/AutomaticTranslateAddonForTranslatePressBase.php on line 617
+[11-May-2026 16:52:32 UTC] [Loco.warning] "El text domain no puede estar vacío" in src/admin/bundle/ConfController.php:42
